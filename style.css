@@ -52,9 +52,9 @@ body {
 #learning {
     background-color: var(--clr-yellow);
     width: max-content;
-    padding: 0.25em 0.8em;
+    padding: 0.375em 0.625em;
     border-radius: 0.25rem;
-    font-size: clamp(0.8rem, 3vw, 1rem);
+    font-size: clamp(0.5rem, 3vw, 0.9rem);
 }
 
 h2 {
@@ -67,7 +67,9 @@ h2:hover {
 }
 
 .description {
-    font-size: clamp(0.8rem, 3vw, 1rem);
+    font-size: clamp(0.8rem, 3vw, 1em);
+    color: var(--clr-gray-500);
+    line-height: 1.375em;
 }
 
 .author {
