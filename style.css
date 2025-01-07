@@ -57,7 +57,11 @@ body {
     font-size: clamp(0.5rem, 3vw, 0.9rem);
 }
 
-h2 {
+.grey {
+    color: var(--clr-gray-500);
+}
+
+h1, h2 {
     font-size: clamp(1.3em, 3vw, 1.5em);
 }
 
